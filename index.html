@@ -9,7 +9,12 @@
     <script type="text/javascript" src="index.js"></script>
     <title>GIF</title>
 </head>
-<body class="gif-container row m-4">
-    
+<body>
+    <div class="row m-4">
+        <button type="button" class="col-2 m-2 btn btn-primary" onclick="getMore()">Load more</button>
+        <input class="form-control form-control-sm col-2 query" type="text">
+        <button type="button" class="col-2 m-2 btn btn-primary" onclick="search()">Search</button>
+    </div>
+    <div class="gif-container row m-4"></div>
 </body>
 </html>
